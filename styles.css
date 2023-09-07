@@ -1,0 +1,39 @@
+body {
+    font-family: monospace, sans-serif;
+    margin: 50px;
+    background: linear-gradient(to right, #5C6BC0, #B0BEC5);
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
